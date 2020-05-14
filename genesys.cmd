@@ -1,6 +1,6 @@
 @echo off
 REM Script para importacao automatica dos Logs no MySQL
-REM Criado por Eduardo Policarpo em 17/12/19
+REM Criado por Eduardo Policarpo em 17/12/19 alterado em 14/05/2020 
 setlocal EnableDelayedExpansion
 
 REM Acessa a unidade Y: que esta mapeada no diretorio de Logs do SRV01 da Genesys srv-outgvprep01

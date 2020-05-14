@@ -3,14 +3,14 @@ REM Script para importacao automatica dos Logs no MySQL
 REM Criado por Eduardo Policarpo em 17/12/19 alterado em 14/05/2020 
 setlocal EnableDelayedExpansion
 
-REM Acessa a unidade Y: que esta mapeada no diretorio de Logs do SRV01 da Genesys srv-outgvprep01
+REM Acessa a unidade Y: do servidor 10.0.2.9 que esta mapeada para o diretorio de Logs do SRV01 da Genesys srv-outgvprep01
 Y:
 
 REM faz a verificacao de quantos arquivos existe na unidade Y: e salva o valor na variavel count_srv01
 set count_srv01=0
 for %%x in (*) do set /a count_srv01+=1
 
-REM Acessa a unidade Z: que esta mapeada no diretorio de Logs do SRV02 da Genesys srv-outgvprep02
+REM Acessa a unidade Z: do servidor 10.0.2.9 que esta mapeada para o diretorio de Logs do SRV02 da Genesys srv-outgvprep02
 Z:
 
 REM faz a verificacao de quantos arquivos existe na unidade Z: e salva o valor na variavel count_srv02
